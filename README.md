@@ -2,7 +2,9 @@
 
 ## What it does
 This Python program removes white spaces from your text files, code, etc.
+
 White spaces are those little extra spaces at the end of your lines that you don't see.
+
 ![An example white space](resources/whitespace_example.jpg)
 
 ## Installation
@@ -18,11 +20,16 @@ You can also uninstall it using the `uninstall.sh` script.
 
 ## Usage
 `-d` or `--dry-run` executes the program but doesn't write anything to the files.
+
 `-l` or `--lines` displays lines that contain a whitespace.
+
 `-b` or `--backup` backup each file before processing it. (with a .backup extension)
+
 `-f` or `--force` process files that do not have "safe" extensions, this is to prevent running the program with `*` and breaking your folder.
+
 `--safe-extensions` will display a list of the extensions considered safe.
 
 ## Safe extensions
 **Note**: More extensions will come over time.
+
 These are the extensions considered safe: .c, .h, .cpp, .py, .cs, .class, .java, .sh, .swift, .vb, .asp, .aspx, .css, .html, .htm, .php, .js, .jsp, .rss, .xml, .json, .rst, .md, .txt
